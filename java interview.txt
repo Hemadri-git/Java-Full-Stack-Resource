@@ -1,0 +1,84 @@
+Java Interview questions
+
+Oops concept with examples - inheritance, polymorphism and abstraction, encapsulation where have we used all these
+
+static, final, transient, volatile and immutability
+in which level we can use static, what is static block everything related to static
+final can we extend or overall, in which scenarios we use final and why we use final
+how to immutability, whether string is immutable or not, how to create custom immutable class
+inner classes, sub classes, nested classes and anonymous classes - how to write and what are its purposes
+
+exception handling, how to create custom exceptions, throw throws keyword, try catch finally, and what is try with resources and how to implement
+in catch how to do multilevel catching, finally block when will it execute,
+difference between error and exception, exception hierarchy 
+
+generics, what are generics, how to use generics and in which scenarios we use generics
+can we use only letter T in generics or can we use another letter also?
+
+java memory model, heap stack, in heap stack different areas, young generation, old generation, permanent generation, meta space 
+perm generation and meta space why and related, garbage collector
+how heap works in garbage collector and all about garbage collector
+when object created and how it will propagate through memory and life cycle
+what will be stored in stack and what will be stored in heap
+what is class loader
+
+Collections - extremely important 
+array, array list, internal working, hash-set and what is hash-table, hash-map, tree map and all its internal working, hash-map internal working is very important
+methods available in collection etc
+
+synchronised versions and concurrent versions of these collections
+copy on write array-list, copy on write array-set, concurrent hash-map very important 
+
+serialisation and deserialisation, why we use, in serialisation what role does transient keyword play,why serialisation concept comes into play and how serialisation concept can be broken, how to tamper this serialisation, in jdk 9 serial filter which provides security to serialisation , in place of serialisation how we use json and db extremely important
+
+java 8 features, functional interfaces, inbuilt functional interfaces like predicate, supplier, consumer not only this already existing ones like comparator, comparable, runnable.
+lambda expressions, custom functional interfaces, method reference and constructor reference
+Streams logic for streams, code in streams, dot-map, dot flat map, dot collect, ex.. Collectors.join and Collectors.groupingby and Collectors.summarizing
+
+we should know that what are all the parameters accepted by the functions and what they are returning respectively
+marker interface, where and why we use this, real time use cases for everything
+
+iterator, fail pass and fail safe
+
+design patterns, most important is singleton design pattern, builder design pattern, factory design pattern, abstract factory design pattern, decorator design
+
+in singleton what is double lock synchronisation, thread safe singleton, singleton breakage and enum related
+
+strings- string pool, is string immutable or not?, internal working and memory behaviour, string constant pool & string buffer and string builder
+
+Good to know topics
+
+Computable future, what is it and in which scenarios we use this
+
+Executors and thread pools, fixed thread pool, custom thread pool, what thread pool is used in parallel stream
+
+File IO operations, virtual threads, date time api.
+Multithreading and concurrency
+
+GIT- rebase, merge, how to resolve merge conflicts, push & pull, commit, remote & local. How to clone repository and how to check out branch, how to do stash. 
+
+Maven/griddle JUnit - unit testing, Sonarq.
+Mock and inject mock and how can we mock static method, how to mock final method & mock private methods, verify mock calls; how to assert exception, what is verify and time.
+
+Spring, spring boot & micro services
+Dependency injection - annotations - @component, @resource, @inject, @qualifier, @primary, @named, @autowired, @bean, @configuration, application context and xml related
+
+What is mvc pattern, how it is helpful dn what is inversion of control, different types of inversion of controls
+Bean scopes- singleton, prototype, global, session, request, where an we use all the and explain the real time example where we can use. Very important life cycle of bean, configuration through annotations and application context 
+
+Spring Security, how to do basic authentication and how to do authorisation, JWT, structure of JWT and what are claims, primary audience, scope, expire set. Oauth, auth flow
+
+JPA, Hibernate and their sessions, JPA pool, hibernate pool, entity manager, what is @transactional, in @transactional we have isolation levels and propagation levels, what are these and internal working & everything with respect to entity, how we will give primary key and join mappings.
+How can we write custom queries;
+In JPA what is first level catching and what is second level catching , what are interceptors, filters, dispatcher servlets, and what is the spring boot flow, how can we implement custom flow, methods in interceptor and how can we implement the custom interceptor. 
+
+Rest controller and method and combinations complete idea, response codes 
+How dispatcher servlets and rest controller are getting mapped, controller views 
+Custom exceptions in spring boot, how to return custom exception object. What is @springbootapplication
+Microservices - design patterns and design principals  saga design pattern & orchestras design pattern & choreographic design pattern, sqrs design pattern 
+
+How to implement API gateway, spring cloud gateway, how to use service registry, logging, distributed logging, span id, trace id, distributed tracing  
+Rate limiter and circuit breaker, half open state, open and closed state
+Rest template, web client, fein client, declarative rest client, spring cloud config server
+Transactional management in ms, events, no concept of role back only revert, Kafka
+Agile, agile cerimonies

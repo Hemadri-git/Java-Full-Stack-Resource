@@ -1,0 +1,8 @@
+• Proficiency in Core Java, Java 8+ features (Streams, Lambda, Collections)
+• Hands-on experience with Spring / Spring Boot
+• Strong knowledge of REST APIs & Microservices
+• Experience with MySQL, PostgreSQL, MongoDB, or Oracle
+• Familiarity with Git/GitHub/Bitbucket
+• Strong problem-solving skills and BASIC HTML, CSS, JAVASCRIPT, REACTJS
+
+
